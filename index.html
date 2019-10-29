@@ -292,13 +292,13 @@
 
               <!-- Order Form Customer Email-->
               <div class="form-group"><label for="email">Email:</label>
-                <input type="email" class="form-control" id="cemail" placeholder="Email" required="true"required>
+                <input type="email" class="form-control" id="cemail" placeholder="Email" required>
               </div>
 
               <!-- Order Form Method of Payment-->
               <div class="form-group">
                   <label for="cardtype">Card Type</label>
-                    <select class="form-control" id="cardtype">
+                    <select class="form-control" id="cardtype" required>
                     
                       <option>Select Payment Methods</option>
                       <option>VISA</option>
@@ -310,19 +310,19 @@
               <!-- Order Form Customer Card Number-->
               <div class="form-group"><label for="cardno">Card Number</label>
                 <input type="tel" class="form-control" id="carddetails" placeholder="Card Number"
-                maxlength="16" required>
+                maxlength="16" required value="">
                 
               </div>
 
             <!-- Order Form Pizza Quantity -->
             <div class="form-group"><label for="qty">QUANTITY</label>
-              <input type="number" class="form-control" id="qty" placeholder="How many?" requireds>
+              <input type="number" class="form-control" id="qty" placeholder="How many?" required>
             </div>
 
 
             <!-- Order Form Pizza Size-->
             <div class="form-group"><label>SIZE</label>
-              <div class="radio">
+              <div class="radio"required>
                 <label class="radio-inline"><input type="radio" name="optradio">Small 9"</label>
                 <label class="radio-inline"><input type="radio" name="optradio">Medium 12"</label>
                 <label class="radio-inline"><input type="radio" name="optradio">Large 16"</label>
@@ -333,7 +333,7 @@
             <!-- Order Form Pizza Cooked options-->
             <div class="form-group">
               <label for="sel1">CRUST</label>
-                <select class="form-control" id="sel1">
+                <select class="form-control" id="sel1" required>
                   <option>Original Hand Tossed</option>
                   <option>Thin Crust</option>
                   <option>Deep Pan</option>
@@ -343,7 +343,7 @@
 
             <!-- Submit Order Button trigger modal -->
             <!-- Submit Order Button will create popup screen to show confirmation of order -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" >
+              <button type="submit" class="btn btn-primary center-block" data-toggle="modal" data-target="#exampleModalCenter" >
                 Submit Order
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
