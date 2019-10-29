@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
   
+  <!-- 
+  Student Name : Vishal K Chanchlani
+  Student Number : 301090878
+  File Description : Responsive website adjusting in different sizes 
+  File Version : v 1.1.0
+  -->
+
+
   <title>Pizza Mania</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,6 +54,7 @@
   </div>
 </nav>
 
+<!-- Slide animation will start ,Initializing slide name, pattern and attributes -->
 <header id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -55,7 +64,7 @@
       <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+    <!-- Images1 for slide -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="pizza1.jpg" alt="Pizza1" width="1200" height="700">
@@ -65,6 +74,7 @@
         </div>      
       </div>
 
+      <!-- Images2 for slide -->
       <div class="item">
         <img src="dough.jpg" alt="Dough" width="1200" height="700">
         <div class="carousel-caption">
@@ -74,14 +84,16 @@
         </div>      
       </div>
     
+       <!-- Images3 for slide -->
       <div class="item">
         <img src="pizza2.jpg" alt="Pizza2" width="1200" height="700">
         <div class="carousel-caption">
           <h3>Highest quality ingredients</h3>
-          <p>We offer Mozzarella (</p>
+          <p>We offer Mozzarella </p>
         </div>      
       </div>
       
+       <!-- Images4 for slide -->
       <div class="item">
         <img src="oven.jpg" alt="Oven" width="1200" height="700">
         <div class="carousel-caption">
@@ -91,6 +103,7 @@
         </div>      
       </div>
     </div>
+
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -103,105 +116,143 @@
     </a>
 </header>
 
-<!-- Container (MENU Section) -->
+
+<!-- (MENU Section) -->
+
+ <!-- Intro text -->
 <section id="menu" class="bg-1">
   <div class="container">
     <h3 class="text-center slideanimate">PIZZA MENU</h3>
     <p class="text-center slideanimate">We'll make you some real Italian pizza.<br> Choose your Pizza below and order for collection!</p>
     
+     <!-- Product 1 -->
     <div class="row display-flex text-center">
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="Margherita.jpg" alt="Margherita">
           <p><strong>Margherita - $10</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Imported tomato sauce, Homemade mozzarella, Basil, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 2 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="Bianca.jpg" alt="Bianca">
           <p><strong>Bianca - $8</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Homemade mozzarella, ricotta, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 3 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="Marinara.jpg" alt="Marinara">
           <p><strong>Marinara - $12</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Imported tomato sauce, Oregano, Garlic, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 4 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="Montanara.jpg" alt="Montanara">
           <p><strong>Montanara - $12</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Lightly fried dough, Homemade marinara sauce, Homemade mozzarella, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 5 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="AllaVodka.jpg" alt="AllaVodka" >
           <p><strong>Alla Vodka - $12</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Vodka sauce, Homemade mozzarella, Basil, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 6 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="Melanzane.jpg" alt="Melanzane">
           <p><strong>Melanzane - $15</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Imported tomato sauce, Homemade mozzarella, Eggplant, Ricotta, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 7 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="Pesto.jpg" alt="Pesto">
           <p><strong>Pesto - $14</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Homemade pesto, Homemade mozzarella, Asiago, Pecorino romano (No olive oil)">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 8 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="BroccoliRabeSausageAsiago.jpg" alt="Broccoli Rabe Sausage">
           <p><strong>Broccoli Sausage  - $15</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Imported tomato sauce, Homemade mozzarella, Broccoli rabe sausage, Asiago, Basil, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 9 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="FigArugulaAndMascarpone.jpg" alt="Fig, Arugula, and Mascarpone">
           <p><strong>Fig & Mascarpone - $15</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Homemade mozzarella, Fig puree, Mascarpone, Arugula, Balsamic vinegar of Modena I.G.P. glaze">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 10 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="MeatballWithRicotta.jpg" alt="Meatball with Ricotta">
           <p><strong>Meatball Ricotta  - $15</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Imported tomato sauce, Homemade mozzarella, Homemade meatballs, Ricotta, Basil, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 11 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="MargheritaDOP.jpg" alt="Margherita DOP">
           <p><strong>Margherita D.O.P. - $17</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="San Marzano tomato sauce D.O.P., Mozzarella di bufala campana D.O.P., Basil, Pecorino romano">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
       </article>
+
+      <!-- Product 12 -->
       <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
         <div class="thumbnail">
           <img src="LaSaporita.jpg" alt="Saporita">
           <p><strong>Saporita - $19</strong></p>
+           <!-- Detail Screen (In form of Toggle)-->
           <p data-toggle="tooltip" title="Mom’s homemade Genovese sauce, Mozzarella di bufala D.O.P., Eggplant, Splashes of pesto and E.V.O.O.">Toppings Info <i class="fa fa-info-circle"></i></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
         </div>
@@ -211,11 +262,11 @@
 </section>
 
   
-  <!-- Modal -->
+  <!-- Order Model -->
   <section class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
-      <!-- Modal content-->
+      <!-- Order Model content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
@@ -223,16 +274,63 @@
         </div>
         <div class="modal-body">
           <form role="form">
+
+            <!-- Order Form Customer Name-->
+              <div class="form-group"><label for="Name">Customer Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Customer Name ">
+              </div>
+              
+              <!-- Order Form Customer Address-->
+              <div class="form-group"><label for="address">Delivery Address</label>
+                <input type="text" class="form-control" id="address" placeholder="Address">
+              </div>
+
+              <!-- Order Form Customer Number-->
+              <div class="form-group"><label for="number">Contact No:</label>
+                <input type="number" class="form-control" id="cnumber" placeholder="Contact Number" max="10">
+              </div>
+
+              <!-- Order Form Customer Email-->
+              <div class="form-group"><label for="email">Email:</label>
+                <input type="email" class="form-control" id="cemail" placeholder="Email" required="true">
+              </div>
+
+              <!-- Order Form Method of Payment-->
+              <div class="form-group">
+                  <label for="cardtype">Card Type</label>
+                    <select class="form-control" id="cardtype">
+                    
+                      <option>Select Payment Methods</option>
+                      <option>VISA</option>
+                      <option>Master Card</option>
+                      <option>Credit Card</option>
+                      </select>
+                </div>
+
+              <!-- Order Form Customer Card Number-->
+              <div class="form-group"><label for="cardno">Card Number</label>
+                <input type="number" class="form-control" id="carddetails" placeholder="Card Number"
+                maxlength="16">
+                
+              </div>
+
+            <!-- Order Form Pizza Quantity -->
             <div class="form-group"><label for="qty">QUANTITY</label>
               <input type="number" class="form-control" id="qty" placeholder="How many?">
             </div>
+
+
+            <!-- Order Form Pizza Size-->
             <div class="form-group"><label>SIZE</label>
               <div class="radio">
                 <label class="radio-inline"><input type="radio" name="optradio">Small 9"</label>
                 <label class="radio-inline"><input type="radio" name="optradio">Medium 12"</label>
                 <label class="radio-inline"><input type="radio" name="optradio">Large 16"</label>
               </div>
+
             </div>
+
+            <!-- Order Form Pizza Cooked options-->
             <div class="form-group">
               <label for="sel1">CRUST</label>
                 <select class="form-control" id="sel1">
@@ -242,9 +340,16 @@
                   <option>Brown Crust Hard</option>
                 </select>
             </div>
-              <button type="submit" class="btn btn-block">ADD 
+
+            <!-- Submit Order Button trigger modal -->
+            <!-- Submit Order Button will create popup screen to show confirmation of order -->
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" >
+                Submit Order
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
+
+            
+              
           </form>
         </div>
         <div class="modal-footer">
@@ -258,7 +363,32 @@
   </div>
 </section>
 
-<!-- Container (Contact Section) -->
+
+<!-- Submit Button Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Confirmation Page</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Thanks for Ordering pizza with us.Your Pizza has been started being prepared and will be out for Delivery soon.</p>
+            <p> Confirmation Number : 07 </p>
+            <p> Delivery Status : Out for Delivery </p>
+            <p> Transaction Amount : Paid </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- (Contact Section) -->
 <section id="contact" class="container">
   <h3 class="text-center slideanim">Contact</h3>
   <p class="text-center slideanim"><em>Send us your feedback!</em></p>
@@ -294,7 +424,7 @@
 
 
 
-<!-- Container (The About Section) -->
+<!-- (About Section) -->
 <section id="about" class="container text-center">
   <article>
     <h3 class="slideanim">About</h3>
